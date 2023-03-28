@@ -9,7 +9,7 @@ from optim.pytorchtools import EarlyStopping
 # from model.model_backbone import SimConv4
 import utils.transforms as transforms_ts
 from model.model_backbone import SimConv4,ConvSC,linear_classifier, ConvSC_NoFdfwd
-from optim.MOCOv2_RelationRsn_Train_file import ModelMoCo,MocoConvSC
+from optim.MOCOv2_RelationRsn_Train_file_LossCoef import ModelMoCo,MocoConvSC
 import torch.nn as nn
 import torch.nn.functional as F
 
