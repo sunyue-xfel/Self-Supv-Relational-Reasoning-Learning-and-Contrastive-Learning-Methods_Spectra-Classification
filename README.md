@@ -12,7 +12,7 @@ Open the project in MyBinder: [![Binder](https://mybinder.org/badge_logo.svg)](h
 
 Since the Juypter Notebook on self-supervised models also relies on some python files in other dictionaries in the project, the URL of this specific notebook is not given. After opening the project, go directly to the 'Self-supervised_SpecRRMoco_SpectralClassification_b512_LossCoef.ipynb' file, and then you can run it.
 
-See our paper "Self-Supervised Approaches to Spectral Classification: Application of Phase Transitions in X-ray Diffraction Data" (https://doi.org/10.21203/rs.3.rs-2599173/v1) for details.
+See our paper "Self-Supervised Approaches to Spectral Classification: Application of Phase Transitions in X-ray Diffraction Data" (https://doi.org/10.21203/rs.3.rs-2599173/v1), **"Sun, Y., Brockhauser, S., Hegedűs, P. et al. Application of self-supervised approaches to the classification of X-ray diffraction spectra during phase transitions. Sci Rep 13, 9370 (2023). https://doi.org/10.1038/s41598-023-36456-y"** for details.
 
 
 ## End-to-End Supervised Machine Learning Models
@@ -20,7 +20,7 @@ See our paper "Self-Supervised Approaches to Spectral Classification: Applicatio
 This study aims to develop deep learning (DL) classification frameworks for one-dimensional (1D) spectral time series. In this work, we deal with the spectra classification problem from two different perspectives, one is a general two-dimensional (2D) space segmentation problem, and the other is a common 1D time series classification problem. We focused on the two proposed classification models under these two settings, the namely the end-to-end binned Fully Connected Neural Network (FCNN) with the automatically capturing weighting factors model and the convolutional SCT attention model. Under the setting of 1D time series classification, several other end-to-end structures based on FCNN, Convolutional Neural Network (CNN), ResNets, Long Short-Term Memory (LSTM), and Transformer were explored. Finally, we evaluated and compared the performance of these classification models based on the High Energy Density (HED) spectra dataset from multiple perspectives, and further performed the feature importance analysis to explore their interpretability. The results show that all the applied models can achieve 100% classification confidence, but the models applied under the 1D time series classification setting are superior. Among them, Transformer-based methods consume the least training time (0.449 s). Our proposed convolutional Spatial-Channel-Temporal (SCT) attention model uses 1.269 s, but its self-attention mechanism performed across spatial, channel, and temporal dimensions can suppress indistinguishable features better than others, and selectively focus on obvious features with high separability.
 
 
-For more information see our publication 'Sun, Y., Brockhauser, S. and Hegedűs, P., 2021. Comparing End-to-End Machine Learning Methods for Spectra Classification. Applied Sciences, 11(23), p.11520.'
+For more information see our publication **'Sun, Y., Brockhauser, S. and Hegedűs, P., 2021. Comparing End-to-End Machine Learning Methods for Spectra Classification. Applied Sciences, 11(23), p.11520.'**
 
 ## Summary
 
